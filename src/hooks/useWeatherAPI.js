@@ -78,7 +78,7 @@ const useWeatherAPI = ({ stationName, cityName, authorizationKey }) => {
       isLoading: false,
     })
   }, [])
-  //參數是要放入函式
+  //useEffect 的參數是要放入函式
   useEffect(() => {
     fetchData()
   }, [fetchData])
